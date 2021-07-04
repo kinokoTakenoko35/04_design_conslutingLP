@@ -1,0 +1,24 @@
+.hero {
+  background-image: url(/images/tim-mossholder-5vh4crJBztg-unsplash.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.vertical-style {
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+.text-frame {
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.btn {
+  background-color: #222222;
+  width: calc(268px - 80px);
+  border-radius: 10px;
+  .mail-btn {
+    text-align: center;
+    color: white;
+  }
+}
